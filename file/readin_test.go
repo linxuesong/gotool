@@ -5,6 +5,7 @@ import (
 	"testing"
 )
 
+// 测试按行分隔
 func TestFileToStringSliceByLine(t *testing.T) {
 	str, _ := os.Getwd()
 	filePath := str+"/../testfile/test1.txt"
