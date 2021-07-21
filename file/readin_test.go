@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-// 测试内容
+// 测内容
 func TestFileToStringSliceByLine(t *testing.T) {
 	str, _ := os.Getwd()
 	filePath := str+"/../testfile/test1.txt"
